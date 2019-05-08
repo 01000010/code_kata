@@ -366,23 +366,23 @@ public:
 
 int main()
 {
-    SpreadsheetModel spreadsheet_model{};
-
-    ObserverPtr tableview_observer{ std::make_shared<TableView>(spreadsheet_model) };
-
-    spreadsheet_model.add_observer(tableview_observer);
-
-    ObserverPtr barchart_observer{ std::make_shared<BarChartView>(spreadsheet_model) };
-
-    spreadsheet_model.add_observer(barchart_observer);
-    spreadsheet_model.change_cell_value("A", 1, 42);
-    spreadsheet_model.remove_observer(tableview_observer);
-    spreadsheet_model.change_cell_value("B", 2, 23.1);
-
-    ObserverPtr piechart_observer{ std::make_shared<PieChartView>(spreadsheet_model) };
-
-    spreadsheet_model.add_observer(piechart_observer);
-    spreadsheet_model.change_cell_value("C", 3, 3.1415926);
+    // SpreadsheetModel spreadsheet_model{};
+	// 
+    // ObserverPtr tableview_observer{ std::make_shared<TableView>(spreadsheet_model) };
+	// 
+    // spreadsheet_model.add_observer(tableview_observer);
+	// 
+    // ObserverPtr barchart_observer{ std::make_shared<BarChartView>(spreadsheet_model) };
+	// 
+    // spreadsheet_model.add_observer(barchart_observer);
+    // spreadsheet_model.change_cell_value("A", 1, 42);
+    // spreadsheet_model.remove_observer(tableview_observer);
+    // spreadsheet_model.change_cell_value("B", 2, 23.1);
+	// 
+    // ObserverPtr piechart_observer{ std::make_shared<PieChartView>(spreadsheet_model) };
+	// 
+    // spreadsheet_model.add_observer(piechart_observer);
+    // spreadsheet_model.change_cell_value("C", 3, 3.1415926);
 
     // CommandProcessor command_processor{};
     // DrawingProcessor drawing_processor{};
