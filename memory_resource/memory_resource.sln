@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memory_resource", "memory_resource\memory_resource.vcxproj", "{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Debug|x64.ActiveCfg = Debug|x64
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Debug|x64.Build.0 = Debug|x64
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Debug|x86.Build.0 = Debug|Win32
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Release|x64.ActiveCfg = Release|x64
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Release|x64.Build.0 = Release|x64
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Release|x86.ActiveCfg = Release|Win32
+		{F9BB932C-CDA1-4EB3-983E-5B90D17B89CC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E745C05A-5AC4-4892-9F14-F2F9547218A6}
+	EndGlobalSection
+EndGlobal
